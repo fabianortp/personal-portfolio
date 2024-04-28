@@ -12,6 +12,8 @@
     scroll-behavior: smooth;
   }
 
+  /*navbar*/
+
   nav ul{
     width: 100%;
     background: rgb(163, 56, 56);
@@ -34,7 +36,7 @@
     display: flex;
     align-items: center;
     color: white;
-
+    font-weight: 650;
   }
   
   nav a:hover {
@@ -68,8 +70,36 @@
   .menu-button {
     display: none;
   }
+
+  /*about section*/
   
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  #welcome-section {
+    background: rgb(87, 109, 135);
+    height: 100vh;
+  }
+  
+  h1 {
+    font-weight: 700;
+    margin-top: 450px;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  p {
+    display: block;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+    font-weight: 450;
+    margin-top: 7px;
+  }
   
   
   @media(max-width: 1631px) {
@@ -79,6 +109,16 @@
   #navbar a {
     font-size: 20px;
     margin-left: 20px;
+  }
+
+  /*about section*/
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  p {
+    font-size: 2.5rem;
   }
   
   
@@ -98,6 +138,16 @@
   .menu-button {
     display: block;
   }
+
+  /*about section*/
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
   
    
   }
@@ -108,6 +158,16 @@
     .sidebar{
       width: 100%;
     }
+
+    /*about section*/
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
     
      
     }
