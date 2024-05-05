@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family:"Poppins", sans-serif;
   }
@@ -14,6 +15,10 @@
 
   /*navbar*/
 
+  .top{
+    position: fixed;
+  }
+
   nav ul{
     width: 100%;
     background: rgb(163, 56, 56);
@@ -26,7 +31,8 @@
   }
 
   nav li {
-    height: 50px;
+    height: 60px;
+    font-size: 1.25em;
   }
   
   nav a{
@@ -100,6 +106,64 @@
     font-weight: 450;
     margin-top: 7px;
   }
+
+  h3 {
+    text-align: center;
+    color: black;
+  }
+
+  /*work section*/
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .section-header1 {
+    margin: 0 auto 4rem auto;
+    font-size: 3.5rem;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .projects-grid {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr  1fr;
+      grid-gap: 2rem;
+      max-width: 1580px;
+      width: 100%;
+      margin: 0 auto;
+  }
+  
+  .project-image {
+    border-radius: 2%;
+  }
+  
+  .project1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  .project2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  
+  .project3 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  
+  .project4 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .project5 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
   
   
   @media(max-width: 1631px) {
@@ -119,6 +183,19 @@
 
   p {
     font-size: 2.5rem;
+  }
+
+  /*work section*/
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+  img {
+    max-width: 680px;
   }
   
   
@@ -141,6 +218,10 @@
 
   /*about section*/
 
+  .section-header1 {
+    font-size: 3.0rem;
+  }
+
   h1 {
     font-size: 4rem;
   }
@@ -149,6 +230,9 @@
     font-size: 2rem;
   }
   
+  img {
+    max-width: 580px;
+  }
    
   }
   
@@ -161,12 +245,20 @@
 
     /*about section*/
 
+    .section-header1 {
+      font-size: 2.5rem;
+    }
+
   h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   p {
     font-size: 1.5rem;
+  }
+
+  img {
+    max-width: 340px;
   }
     
      
