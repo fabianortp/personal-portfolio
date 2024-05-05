@@ -96,6 +96,8 @@
     color: #fff;
     font-size: 5rem;
     text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .p-general {
@@ -351,31 +353,31 @@ span {
       font-size: 1.7rem;
     }
 
-  h1 {
-    font-size: 1.7rem;
-  }
+    h1 {
+      font-size: 1.5rem;
+    }
 
-  .p-general {
-    font-size: 1.5rem;
-  }
+    .p-general {
+      font-size: 1.4rem;
+    }
 
-  #h3-projects {
-    font-size: 0.8rem;
-  }
-  
-  /*contact*/
+    #h3-projects {
+      font-size: 0.8rem;
+    }
+    
+    /*contact*/
 
-  #contact {
-    height: 100vh;
-  }
+    #contact {
+      height: 100vh;
+    }
 
-  i {
-    display: flex;
-  }
+    i {
+      display: flex;
+    }
 
-  #p-contacts{
-    font-size: 1.2rem;
-  }
+    #p-contacts{
+      font-size: 1.2rem;
+    }
     
      
     }
