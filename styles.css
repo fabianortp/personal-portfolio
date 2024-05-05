@@ -98,9 +98,9 @@
     text-align: center;
   }
 
-  p {
+  .p-general {
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-style: italic;
     text-align: center;
     font-weight: 450;
@@ -164,6 +164,47 @@
     grid-column-start: 1;
     grid-row-start: 3;
   }
+
+  /*Contact*/
+
+#contact {
+  background: rgb(87, 109, 135);
+}
+
+.section-header2 {
+  margin: 0 auto 8rem auto;
+  font-size: 3.5rem;
+  padding: 3rem 2rem;
+}
+
+span {
+  color: rgb(131, 22, 22);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.contact-details {
+    font-size: 2.4rem;
+}
+
+#contact-img {
+  margin-top: -80px;
+  border-radius: 20%;
+  max-width: 680px;
+}
+
+  #p-contacts{
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 650;
+  }
   
   
   @media(max-width: 1631px) {
@@ -177,27 +218,56 @@
 
   /*about section*/
 
+  
   h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
+    margin-top: 250px;
   }
 
-  p {
-    font-size: 2.5rem;
-  }
 
   /*work section*/
+
+    .section-header1 {
+      font-size: 2.7rem;
+    }
+
+      
+    .h3-projects {
+      font-size: 3.0rem;
+    }
 
   .projects-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
-}
-
-  img {
-    max-width: 680px;
   }
+
+
+  /*Contact section*/
+
+  .section-header2 {
+    margin: 0 auto 5rem auto;
+    font-size: 2.7rem;
+    padding-top: 4rem ;
+  }
+
+  .contact-details {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
   
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact-img {
+  border-radius: 10%;
+  max-width: 40%;
+  }
   
   }
   
@@ -216,23 +286,55 @@
     display: block;
   }
 
+  .p-general {
+    font-size: 1.7rem;
+  }
+
   /*about section*/
 
   .section-header1 {
-    font-size: 3.0rem;
+    font-size: 2.1rem;
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
-  p {
-    font-size: 2rem;
-  }
   
   img {
-    max-width: 580px;
+    max-width: 520px;
   }
+
+  /*projects*/
+
+  .project-image {
+    width: 95%;
+    padding-left: 5%;
+  }
+
+  #h3-projects {
+    font-size: 1rem;
+  }
+
+  /*Contact section*/
+  
+  
+  #contact-img {
+  border-radius: 10%;
+  }
+
+  #contact {
+    height: 100vh;
+  }
+
+  #contact-a {
+    display: flex;
+  }
+
+  i {
+    padding-right: 10px;
+  }
+
    
   }
   
@@ -246,19 +348,33 @@
     /*about section*/
 
     .section-header1 {
-      font-size: 2.5rem;
+      font-size: 1.7rem;
     }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
-  p {
+  .p-general {
     font-size: 1.5rem;
   }
 
-  img {
-    max-width: 340px;
+  #h3-projects {
+    font-size: 0.8rem;
+  }
+  
+  /*contact*/
+
+  #contact {
+    height: 100vh;
+  }
+
+  i {
+    display: flex;
+  }
+
+  #p-contacts{
+    font-size: 1.2rem;
   }
     
      
